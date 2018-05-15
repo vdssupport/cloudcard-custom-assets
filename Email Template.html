@@ -5,7 +5,8 @@ If a dollar sign is used in text for an email, it should be preceeded by a backs
 <!--
 REPLACE:
 {{ORG_NAME}}
-{{ORG_COLOR}}
+{{ORG_COLOR_1}}
+{{ORG_COLOR_2}}
 {{OFFICE_NAME}}
 {{IMAGE_URL}}
 -->
@@ -24,11 +25,11 @@ REPLACE:
 <!-- ======================================================= -->
 <div class="separator"><strong>WELCOME BODY FOLLOWS</strong></div>
 <!-- ======================================================= -->
-<div width="100%" style="text-align: center; border-top: 10px solid {{ORG_COLOR}}; padding: 20px;">
-  <img src="{{IMAGE_URL}}" />
+<div width="100%" style="text-align: center; border-top: 0.4em solid {{ORG_COLOR_2}}; padding: 1em; background-color: {{ORG_COLOR_1}};">
+  <img src="{{IMAGE_URL}}" style="height: 5em;" />
 </div>
 
-<h1 style="color: {{ORG_COLOR}};">Welcome to {{ORG_NAME}}!</h1>
+<h1 style="color: {{ORG_COLOR_1}};">Welcome to {{ORG_NAME}}!</h1>
 
 <p>When you arrive on campus, you will be issued a Campus ID Card; and you're going to need it because it gives you access to everything.  You can skip the long photo lines by submitting your photo online now, so your ID will be waiting for you when you get here.</p>
 
@@ -37,11 +38,11 @@ REPLACE:
 <!-- ======================================================= -->
 <div class="separator"><strong>LOGIN BODY FOLLOWS</strong></div>
 <!-- ======================================================= -->
-<div width="100%" style="text-align: center; border-top: 10px solid {{ORG_COLOR}}; padding: 20px;">
-  <img src="{{IMAGE_URL}}" />
+<div width="100%" style="text-align: center; border-top: 0.4em solid {{ORG_COLOR_2}}; padding: 1em; background-color: {{ORG_COLOR_1}};">
+  <img src="{{IMAGE_URL}}" style="height: 5em;" />
 </div>
 
-<h1 style="color: {{ORG_COLOR}};">We need your photo for your ID Card.</h1>
+<h1 style="color: {{ORG_COLOR_1}};">We need your photo for your ID Card.</h1>
 
 <p>Rather than standing in a long line to have your photo taken, you can submit your photo online now; so your ID will be waiting for you when you get here.</p>
 
@@ -50,8 +51,8 @@ REPLACE:
 <!-- ======================================================= -->
 <div class="separator"><strong>APPROVAL BODY FOLLOWS</strong></div>
 <!-- ======================================================= -->
-<div width="100%" style="text-align: center; border-top: 10px solid {{ORG_COLOR}}; padding: 20px;">
-  <img src="{{IMAGE_URL}}" />
+<div width="100%" style="text-align: center; border-top: 0.4em solid {{ORG_COLOR_2}}; padding: 1em; background-color: {{ORG_COLOR_1}};">
+  <img src="{{IMAGE_URL}}" style="height: 5em;" />
 </div>
 
 <h4>We have approved your photo!</h4>
@@ -59,8 +60,8 @@ REPLACE:
 <!-- ======================================================= -->
 <div class="separator"><strong>DENIAL BODY FOLLOWS</strong></div>
 <!-- ======================================================= -->
-<div width="100%" style="text-align: center; border-top: 10px solid {{ORG_COLOR}}; padding: 20px;">
-  <img src="{{IMAGE_URL}}" />
+<div width="100%" style="text-align: center; border-top: 0.4em solid {{ORG_COLOR_2}}; padding: 1em; background-color: {{ORG_COLOR_1}};">
+  <img src="{{IMAGE_URL}}" style="height: 5em;" />
 </div>
 
 <h4>Unfortunately, we were not able to approve your photo for the following reasons:</h4>
@@ -69,16 +70,10 @@ REPLACE:
 <div class="separator"><strong>CLOSING FOLLOWS</strong></div>
 <!-- ======================================================= -->
 <p>Thank you,</p>
-<p style="color: {{ORG_COLOR}};">
+<p style="color: {{ORG_COLOR_1}};">
   <strong>
     {{ORG_NAME}}<br />
     {{OFFICE_NAME}}
   </strong>
 </p>
-<div width="100%" style="text-align: center; border-top: 10px solid {{ORG_COLOR}}; padding: 20px;">&nbsp;</div>
-
-
-<!-- ======================================================= -->
-<div class="separator"><strong>IMAGE FOLLOWS</strong></div>
-<!-- ======================================================= -->
-https://sharptopco.github.io/cloudcard-custom-assets/single-pixel-transparent.png
+<div width="100%" style="text-align: center; background-color: {{ORG_COLOR_1}}; border-bottom: 0.4em solid {{ORG_COLOR_2}};">&nbsp;</div>
